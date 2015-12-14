@@ -4,3 +4,9 @@ https://mobiforge.com/design-development/html5-mobile-web-touch-events
 http://jsfiddle.net/laurence/YNMEX/
 14-Dec-2015 b
 Other stuff 
+
+http://www.jqueryscript.net/demo/jQuery-Ajax-Loading-Overlay-with-Loading-Text-Spinner-Plugin/demo/
+
+http://www.jqueryscript.net/demo/Responsive-Filterable-jQuery-Portfolio-Gallery-Plugin-Elastic-Grid/demo_responsive.html
+
+https://css-tricks.com/snippets/jquery/display-browser-and-version/
