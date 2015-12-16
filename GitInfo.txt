@@ -62,6 +62,59 @@ git stash clear
 
 REPOS on Net or Another Server
 
+git branch -a
+
+
+
+git fetch (get all objects from remote to locally DB)
+
+Note a PULL will do a merge also
+
+git remote show
+
+
+**********************************************************
+Session 
+git log
+git add -u (Just add updated files to staging area)
+git add -A (Just updated files)
+
+git diff HEAD~1..  (Diff to last change ~2 next change etc)
+
+
+
+
+DELETING
+
+If a file has not being commited then..
+
+git checkout (and the name of the file) will revert the changes
+git reset --hard	(reset back to HEAD, back before any chnages)
+
+git reset --soft HEAD~1 (back to one version before)
+
+
+git clean (for removing files)
+
+
+git log --oneline  (shows log but in sigle lines - handy)
+git log --oneline --graph (as above with graph)
+git shortlog -sne
+
+git remote -v (lists remotes on say GITHUB)
+git branch -r
+
+git tag
+
+TO ADD A REMOTE
+git reamote add origin Https://  .... where ever this is 
+git fetch
+
+
+
+
+
+
 
 
 
