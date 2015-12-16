@@ -1,0 +1,80 @@
+git config --global user.name "Sean OR"
+git config --global user.email "s@s.com"
+
+git config --list
+
+short cuts if required
+git config --global alias.co checkout
+
+
+1.	Git init
+2.	.git ignore  (to ignore files) 
+3.	git add .
+4.  git status
+5.	git commit -m "First commit"
+5.	git ls-files  (list all files in Resp)
+6.	git rm
+7.	git commit -a  (Will add and commit all in one go)
+8.	git commit -v  (Includes diff in commit message)
+9.	git log
+10.	git log --stat
+
+
+BRANCHING
+
+gitk --all  (brings up a hand UI)
+
+git branch
+
+git branch BranchName		(Creates a Branch)
+git checkout BranchName		(Switches a Branch)
+
+git rebase master			(This will sync the 2 branches !!)
+
+git diff master BranchName	(Compare what the diffs are)
+
+MERGING - make sure you are in master branch
+git checkout master
+git merge BranchName
+
+git reset --hard ORIG_HEAD (resets to before merge)
+
+git branch -d  BranchName  (how to delete a branch)
+git branch -D BranchName  (how to delete an UNMERGED branch)
+
+What a conflict MAY look like
+Need to fix manually
+<<<<<<< HEAD
+Line 1 
+=======
+Line 2
+Line 3
+Line 999
+>>>>>>> gitstuff
+
+git branch -b BranchName2 (Create branch and move to it in one command)
+
+git stash (Saves changes and come back at a later point) 
+git stash list  (Lists STASHED stuff)
+git stash apply 
+
+git stash clear
+
+REPOS on Net or Another Server
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
