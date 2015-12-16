@@ -7,8 +7,5 @@ Line 3
 Line 999
 
 Version 1
-<<<<<<< HEAD
 Version 3
-=======
 Version 2
->>>>>>> version2
