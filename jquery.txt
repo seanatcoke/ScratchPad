@@ -1,0 +1,43 @@
+
+
+var divs = $('div');
+
+Selectors
+
+$('#ID')		Hash for ID
+$('.class')		. for Class
+
+
+var primary = $('.col-sm-5').find('button[class*="btn-primary"]');
+var parents = $('tbody').parents();		(Gets parents)
+
+
+FOR Setting style
+
+$('h2').attr('style','background-color:#ff3');
+
+OR
+
+var BG = $('h2').css('backgroud-color') 
+
+$('h2').css({ backgroundColor: '#f60' }) 
+
+FOR Setting style using CLASSES
+
+$('h2').addClass('style');
+
+
+).show
+).hide
+).toggle
+).fadeOut('fast');
+).fadeIn('fast');
+
+
+
+
+
+
+
+
+
