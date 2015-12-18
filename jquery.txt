@@ -34,6 +34,69 @@ $('h2').addClass('style');
 ).fadeIn('fast');
 
 
+When page Loads
+$(function(()
+{
+
+	//Code in here
+
+});
+
+
+OR
+
+$(document).ready(function()
+{
+
+	//Code in here
+
+});
+
+
+CLICK Events
+$('#save-button').on('click',function()
+{
+	//Code
+console.log("");
+}
+);
+
+$('#save-button').off('click');   //will disable
+
+One time Event
+$('#save-button').one('click');   //ONE TIME EVENT !! handy
+
+
+//Simple way of doing it
+$('#save-button').click(function()
+{
+	//Code
+console.log("");
+}
+);
+
+..API.JQUERY.COM
+
+Chaining Statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

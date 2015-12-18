@@ -1,3 +1,7 @@
+
+http://www.git-tower.com/blog/git-cheat-sheet/
+
+
 git config --global user.name "Sean OR"
 git config --global user.email "s@s.com"
 
