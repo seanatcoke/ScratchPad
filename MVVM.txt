@@ -1,0 +1,31 @@
+MVVM 
+http://www.learnmvvm.com/
+
+https://www.youtube.com/watch?v=PUvZ5wVrZ4s
+Seperation of concerns.
+
+
+http://www.codehaystack.com/
+This is a good video
+https://www.youtube.com/watch?v=q-yho2LfQ0Q
+
+https://code.msdn.microsoft.com/windowsdesktop/ADPNET-Entity-Framework-2d1160cb
+
+PDSA
+
+
+MVVm Light ToolKit
+Good JSON Example 
+http://app.pluralsight.com/training/player?course=mvvm-light-toolkit-fundamentals&author=laurent-bugnion&name=mvvm-light-m1-introduction&clip=0&mode=live
+
+
+https://msdn.microsoft.com/en-us/magazine/dd419663.aspx
+Code Sample
+https://msdn.microsoft.com/en-us/magazine/msdnmag0209.aspx
+
+
+
+http://www.c-sharpcorner.com/UploadFile/31514f/prism-and-mvvm-part-1/
+
+
+http://www.syncfusion.com/resources/techportal/ebooks?utm_medium=mindcrackerebDec15

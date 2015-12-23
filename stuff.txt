@@ -10,3 +10,67 @@ http://www.jqueryscript.net/demo/jQuery-Ajax-Loading-Overlay-with-Loading-Text-S
 http://www.jqueryscript.net/demo/Responsive-Filterable-jQuery-Portfolio-Gallery-Plugin-Elastic-Grid/demo_responsive.html
 
 https://css-tricks.com/snippets/jquery/display-browser-and-version/
+
+
+ private string m_TestString = DateTime.Now.ToString();
+
+        [HttpPost]
+        public ActionResult uploaddata()
+        {
+            TempData["Message1"] = "Profile Updated Successfully 2";
+            return RedirectToAction("Index");
+             
+        }
+
+        public ActionResult Index()
+        {
+            ViewData["Message"] = m_TestString;
+            ViewBag.MessageSOR = DateTime.Now.ToString();
+            TempData["Message1"] = DateTime.Now.ToString();
+            
+
+            return View();
+        }
+
+@{
+    ViewBag.Title = "Index";
+}
+<script src="../../Scripts/jquery-1.8.2.min.js"></script>
+
+<h2>Index</h2>
+
+<div>
+    
+    <img alt="" src='@ViewData["Message"]' />
+    @ViewData["Message"]
+    <input id="cmdTest" type="button" value="button" />
+
+    @ViewBag.MessageSOR
+
+    <b>@TempData["Message1"]</b>
+
+</div>
+
+
+<script>
+
+    $('#cmdTest').on('click', function () {
+        //Code
+        var imgData1 = "Stuff";
+
+        var ajaxRequest = $.ajax({
+            url: '/TestView/uploaddata',
+            dataType: 'text',
+            data: imgData1,
+            type: 'POST',
+            success: function (data, text) {
+                data = JSON.parse(data)
+                console.log(data.Value);
+                alert(data.Value);
+            }
+        });
+    }
+    );
+
+
+</script>
