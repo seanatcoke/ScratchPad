@@ -74,3 +74,6 @@ https://css-tricks.com/snippets/jquery/display-browser-and-version/
 
 
 </script>
+
+NB
+http://wcftutorial.net/How_to_create_RESTful_Service.aspx
