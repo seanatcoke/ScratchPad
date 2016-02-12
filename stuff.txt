@@ -77,3 +77,11 @@ https://css-tricks.com/snippets/jquery/display-browser-and-version/
 
 NB
 http://wcftutorial.net/How_to_create_RESTful_Service.aspx
+
+VS installer for VS2013
+https://visualstudiogallery.msdn.microsoft.com/9abe329c-9bba-44a1-be59-0fbf6151054d
+
+
+http://docs.asp.net 
+http://live.asp.net 
+
