@@ -85,3 +85,24 @@ https://visualstudiogallery.msdn.microsoft.com/9abe329c-9bba-44a1-be59-0fbf61510
 http://docs.asp.net 
 http://live.asp.net 
 
+
+FP>>
+<body onload="getWindowSize()">
+
+<script type="text/javascript">
+
+
+    function getWindowSize() {
+        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        document.getElementById("txtPageSize").value = w + ";" + h;
+    }
+
+    window.onresize = function () {
+        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        document.getElementById("txtPageSize").value = w + ";" + h;
+    };
+
+</script>
+
